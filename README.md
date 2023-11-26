@@ -20,14 +20,10 @@ And, finally write a plugin.
     │   ├── robot
     │   │   ├── model.config
     │   │   ├── model.sdf
-    │   │
-    │   ├── T1000
-    │   │   ├── model.config
-    │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── hello.cpp
     ├── world                          # Gazebo main World empty scene
-    │   ├── UdacityOffice.world
+    │   ├── myworld
     ├── CMakeLists.txt                 # Link libraries 
     └──                              
 ```
@@ -43,12 +39,12 @@ $ sudo apt-get upgrade -y
 #### Step 2 Clone the lab folder in /home/workspace/
 ```sh
 $ cd /home/workspace/
-$ git clone git clone https://github.com/moeec/Robo-ND-P1.git
+$ git clone https://github.com/udacity/RoboND-myrobot myrobot
 ```
 
 #### Step 3 Compile the code
 ```sh
-$ cd /home/workspace/Udacity-RoboND-Build-My-World-P1-main/
+$ cd /home/workspace/myrobot/
 $ mkdir build
 $ cd build/
 $ cmake ../
@@ -57,14 +53,13 @@ $ make
 
 #### Step 4 Add the library path to the Gazebo plugin path  
 ```sh
-$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/Udacity-RoboND-Build-My-World-P1-main/build
+$ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/myrobot/build
 ```
-NOTE: Your path might be slightly different
 
 #### Step 5 Run the Gazebo World file  
 ```sh
-$ cd /home/workspace/Udacity-RoboND-Build-My-World-P1-main/world/
-$ gazebo UdacityOffice.world
+$ cd /home/workspace/myrobot/world/
+$ gazebo myworld
 ```
 
 ### Output
