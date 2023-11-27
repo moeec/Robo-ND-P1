@@ -1,4 +1,4 @@
-# Install script for directory: /home/ubuntu/Udacity/Udacity-RoboND-Build-My-World-P1
+# Install script for directory: /home/ubuntu/Downloads/Udacity-RoboND-Build-My-World-P1-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/Udacity/Udacity-RoboND-Build-My-World-P1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/Downloads/Udacity-RoboND-Build-My-World-P1-main/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,3 +1,3 @@
-/home/ubuntu/Udacity/Udacity-RoboND-Build-My-World-P1/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/Udacity/Udacity-RoboND-Build-My-World-P1/build/CMakeFiles/edit_cache.dir
-/home/ubuntu/Udacity/Udacity-RoboND-Build-My-World-P1/build/CMakeFiles/hello.dir
+/home/ubuntu/Downloads/Udacity-RoboND-Build-My-World-P1-main/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/Downloads/Udacity-RoboND-Build-My-World-P1-main/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/Downloads/Udacity-RoboND-Build-My-World-P1-main/build/CMakeFiles/hello.dir
