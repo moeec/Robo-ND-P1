@@ -20,6 +20,9 @@ And, finally write a plugin.
     │   ├── robot
     │   │   ├── model.config
     │   │   ├── model.sdf
+    │   ├── BigRobot                   # Model Made by Me.
+    │   │   ├── model.config
+    │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
     │   ├── hello.cpp
     ├── world                          # Gazebo main World empty scene
